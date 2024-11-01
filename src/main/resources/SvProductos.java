@@ -56,7 +56,6 @@ public class SvProductos extends HttpServlet {
         response.sendRedirect("mostrarProducto.jsp");
 
     }
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException{
